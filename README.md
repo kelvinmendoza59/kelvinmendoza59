@@ -69,10 +69,11 @@
 
 ### 🚀 Featured Projects
 
-#### 🌟 [Riptoforex.com](https://riptoforex.com) - *Private Repository*
+#### 🌟 [Riptoforex.com](https://riptoforex.com) - **[Case Study](https://github.com/kelvinmendoza59/riptoforex-case-study)**
 Financial news platform serving Forex & Crypto traders worldwide with real-time market updates
-- **Tech Stack**: Next.js, Tailwind CSS, FastAPI, PostgreSQL
+- **Tech Stack**: Next.js, React, Tailwind CSS, FastAPI, PostgreSQL
 - **Status**: Live in Production
+- **Documentation**: Full case study available in public repository
 
 #### 📝 [SecureAuth](https://github.com/kelvinmendoza59/user-management-api)
 Enterprise-grade user authentication system with JWT & role-based access control
