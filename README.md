@@ -9,13 +9,32 @@
 
 ### 👨‍💻 About Me
 
-- 🎓 **Harvard CS50x Graduate** - Introduction to Computer Science
-- 🧠 Currently pursuing **Master's in AI Development**
-- 💼 Founder of **[Riptoforex.com](https://riptoforex.com)** - Financial news platform serving Forex & Crypto traders worldwide
-- 🌐 Portfolio: **[portfolio-web-kelvin.vercel.app](https://portfolio-web-kelvin.vercel.app)**
-- 📍 Based in **Georgia, United States**
-- 💻 Building modern web applications with **Next.js, Python, and React**
-- 📫 Reach me at **kelvinmendoza309@gmail.com**
+**Full-Stack Developer & AI Engineer** building production-ready applications with modern technologies
+
+- 🚀 **Founder @ [Riptoforex.com](https://riptoforex.com)** - Financial news platform serving Forex & Crypto traders worldwide
+  - Built with Next.js, FastAPI, and PostgreSQL
+  - Automated content generation system with AI integration
+  - Real-time market updates and data processing
+  
+- 🤖 **AI Development Specialist** - Pursuing Master's at Universidad Isabel I (Spain)
+  - Building AI-powered applications with LangChain, RAG, and LLMs
+  - Experience with local AI models (Ollama, LM Studio) and cloud APIs
+  
+- 💻 **6+ Production Projects** - Full-stack applications deployed and maintained
+  - Enterprise authentication systems (Node.js, MongoDB, JWT)
+  - Task management platforms (Python, Flask, PostgreSQL)
+  - E-commerce solutions (React, Next.js)
+  
+- 🎓 **Harvard CS50x Graduate** + Codecademy Computer Science Career Path (400+ hours)
+
+- 📍 **Georgia, USA** | 🌐 [Portfolio](https://portfolio-web-kelvin.vercel.app) | 📧 kelvinmendoza309@gmail.com
+
+**Open to:** Full-Stack Developer | AI Engineer | Backend Developer roles
+
+---
+
+
+
 
 ---
 
@@ -58,16 +77,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kelvinmendoza59&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kelvinmendoza59&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kelvinmendoza59&theme=tokyonight" alt="Top Languages" />
 </p>
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 What I'm Building
 
 #### 🌟 [Riptoforex.com](https://riptoforex.com) - **[Case Study](https://github.com/kelvinmendoza59/riptoforex-case-study)**
 Financial news platform serving Forex & Crypto traders worldwide with real-time market updates
@@ -97,37 +112,55 @@ Professional portfolio website with dark/light mode - **[Live Demo](https://port
 
 ---
 
-### 🎓 Education & Certifications
+### 🎓 Education & Credentials
 
-- 🏆 **CS50x: Introduction to Computer Science** - Harvard University
-- 📜 **Computer Science Career Path** - Codecademy
-- 📜 **Technical Interview with Python** - Codecademy
-- 🧠 **Master in AI Development** - In Progress
+**🏛️ Master in AI Development** | Universidad Isabel I (Spain) | Expected 2026  
+Official postgraduate degree specializing in AI-powered software development
+- Software Architecture (Clean, Microservices, Event-Driven)
+- AI/ML Engineering (LLMs, RAG, LangChain, AI Agents)
+- DevOps & Cloud (Docker, Kubernetes, CI/CD)
+- Security (OWASP Top 10, DevSecOps)
+- 4 production-ready AI projects with modern tech stack
+
+**💻 Computer Science Career Path** | Codecademy | 400+ hours  
+Full-stack development professional certificate • Data Structures & Algorithms • Multiple production projects
+
+**🏆 CS50x** | Harvard University  
+Introduction to Computer Science • Final Project: Stock trading simulator
 
 ---
 
-### 📫 Connect with Me
+### 📫 Let's Connect
+
+**💼 Open to Full-Stack Developer & AI Engineer opportunities**
+
+I'm passionate about building scalable web applications and AI-powered solutions. Let's connect if you're looking for someone who can:
+- Build production-ready full-stack applications
+- Develop AI/ML solutions for real-world problems
+- Lead technical projects from concept to deployment
 
 <p align="left">
   <a href="https://portfolio-web-kelvin.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://riptoforex.com" target="_blank">
-    <img src="https://img.shields.io/badge/Riptoforex-FF6B6B?style=for-the-badge&logo=rss&logoColor=white" alt="Riptoforex" />
+    <img src="https://img.shields.io/badge/Portfolio-View_My_Work-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
   </a>
   <a href="mailto:kelvinmendoza309@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Let's_Talk-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
 ---
 
-### 💡 Current Focus
+### 🚀 What I'm Building Now
 
-- 🔭 Building AI-powered applications and exploring machine learning
-- 🌱 Deepening expertise in Next.js and modern React patterns
-- 👯 Open to collaborate on full-stack and AI/ML projects
-- 💬 Ask me about **Next.js, Python, Flask, Node.js, or Harvard CS50x**
+- 💼 **Riptoforex.com** - Scaling financial news platform for global Forex & Crypto community
+- 🤖 Developing AI-powered trading analysis tools using Python & FastAPI
+- 🌐 Building modern web applications with Next.js 14, React, and TypeScript
+- 📊 Exploring machine learning applications in financial market prediction
+
+**Open to opportunities:** Full-Stack Developer | AI Engineer | Backend Developer roles
 
 ---
 
