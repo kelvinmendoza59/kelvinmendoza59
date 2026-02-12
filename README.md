@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Kelvin Mendoza</h1>
 <h3 align="center">Full-stack Developer + AI Engineer | Founder @ Riptoforex.com</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kelvinmendoza59&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-</p>
-
 ---
 
 ### 👨‍💻 About Me
@@ -146,8 +142,8 @@ I'm passionate about building scalable web applications and AI-powered solutions
   <a href="mailto:kelvinmendoza309@gmail.com">
     <img src="https://img.shields.io/badge/Email-Let's_Talk-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/kelvinmendoza59" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
@@ -163,11 +159,3 @@ I'm passionate about building scalable web applications and AI-powered solutions
 **Open to opportunities:** Full-Stack Developer | AI Engineer | Backend Developer roles
 
 ---
-
-<p align="center">
-  <i>⚡ Fun fact: Originally from Venezuela, with professional experience in Peru, now based in Georgia, USA!</i>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kelvinmendoza59&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
-</p>
