@@ -29,11 +29,6 @@
 
 ---
 
-
-
-
----
-
 ### 🛠️ Tech Stack
 
 #### Languages
@@ -149,13 +144,11 @@ I'm passionate about building scalable web applications and AI-powered solutions
 
 ---
 
-### 🚀 What I'm Building Now
+### 💡 Current Focus
 
 - 💼 **Riptoforex.com** - Scaling financial news platform for global Forex & Crypto community
 - 🤖 Developing AI-powered trading analysis tools using Python & FastAPI
 - 🌐 Building modern web applications with Next.js 14, React, and TypeScript
 - 📊 Exploring machine learning applications in financial market prediction
-
-**Open to opportunities:** Full-Stack Developer | AI Engineer | Backend Developer roles
 
 ---
