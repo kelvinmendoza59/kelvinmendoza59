@@ -65,14 +65,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kelvinmendoza59&theme=tokyonight" alt="Top Languages" />
-</p>
-
----
-
 ### 🚀 What I'm Building
 
 #### 🌟 [Riptoforex.com](https://riptoforex.com) - **[Case Study](https://github.com/kelvinmendoza59/riptoforex-case-study)**
