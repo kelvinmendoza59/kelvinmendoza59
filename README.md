@@ -20,6 +20,8 @@
   - Enterprise authentication systems (Node.js, MongoDB, JWT)
   - Task management platforms (Python, Flask, PostgreSQL)
   - E-commerce solutions (React, Next.js)
+
+- 🌍 **Open-Source Contributor** - Active contributor to [MDN Web Docs](https://github.com/mdn/translated-content) (Mozilla)
   
 - 🎓 **Harvard CS50x Graduate** + Codecademy Computer Science Career Path (400+ hours)
 
@@ -72,6 +74,12 @@ Financial news platform serving Forex & Crypto traders worldwide with real-time 
 - **Tech Stack**: Next.js, React, Tailwind CSS, FastAPI, PostgreSQL
 - **Status**: Live in Production
 - **Documentation**: Full case study available in public repository
+
+#### 🌍 [MDN Web Docs](https://github.com/mdn/translated-content/pull/32346) - Open-Source Contribution
+Contributed to Mozilla's MDN Web Docs — the most widely used web development documentation platform
+- **Contribution**: Improved readability of JavaScript documentation in Spanish ([PR #32346](https://github.com/mdn/translated-content/pull/32346) — Merged)
+- **Role**: Reviewed and approved by project maintainers, merged into main branch
+- **Impact**: Enhances documentation accessibility for Spanish-speaking developers worldwide
 
 #### 📝 [SecureAuth](https://github.com/kelvinmendoza59/user-management-api)
 Enterprise-grade user authentication system with JWT & role-based access control
