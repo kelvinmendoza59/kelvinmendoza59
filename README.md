@@ -28,7 +28,7 @@ deployment infrastructure.
 - 🌍 **Open-Source Contributor** — [Mozilla MDN Web Docs](https://github.com/mdn/translated-content/pull/32346)
   - PR #32346 merged January 2026 (l10n-es)
 
-- 🎓 **Harvard CS50x Graduate** — Final Project: [TaskMaster-Pro](https://github.com/kelvinmendoza59/TaskMaster-Pro)
+- 🎓 **HarvardX CS50x Certificate** — Final Project: [TaskMaster-Pro](https://github.com/kelvinmendoza59/TaskMaster-Pro)
 - 🎓 **Codecademy Computer Science Professional Certification** — 7 exams passed (Algorithms, Data Structures, Databases, Computer Architecture, and more)
 - 🎓 **AI Software Development Program** (in progress) — Universidad Isabel I + BIG school
 
@@ -100,9 +100,9 @@ immigration, finance, recipes, and more.
 - **Stack:** Next.js, FastAPI, PostgreSQL (shared backend with Riptoforex)
 - **Status:** Live in production (private repo for security)
 
-#### 🎓 [TaskMaster Pro](https://github.com/kelvinmendoza59/TaskMaster-Pro) — Harvard CS50x Final Project
+#### 🎓 [TaskMaster Pro](https://github.com/kelvinmendoza59/TaskMaster-Pro) — HarvardX CS50x Final Project
 Full-stack web-based task management application built as the capstone
-project for Harvard's CS50x program.
+project for HarvardX's CS50x online course.
 - **Stack:** Python, Flask, SQLAlchemy, Bootstrap, RESTful API
 - **[Video Demo](https://www.youtube.com/watch?v=stsZTSPVnDM)**
 
@@ -125,7 +125,7 @@ Python-based movie recommendation system exploring recommendation algorithms.
 
 ### 🎓 Education & Credentials
 
-**🎓 CS50x — Introduction to Computer Science** | Harvard University
+**🎓 CS50x — Introduction to Computer Science** | HarvardX (online via edX)
 Final Project: [TaskMaster Pro](https://github.com/kelvinmendoza59/TaskMaster-Pro)
 
 **💻 Computer Science Professional Certification** | Codecademy
