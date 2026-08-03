@@ -85,6 +85,20 @@ single-user throughput on consumer GPUs — all four are in regular use here.
   native XML tool-call format into OpenAI-compatible JSON, since the server
   expects Hermes-style output.
 - 🎯 **Fine-tuning** — Unsloth on a RunPod A100.
+- 📊 **Evaluation** — I pick models by measuring them against my own pipeline, not by
+  leaderboard position: throughput, draft acceptance, and long-context retrieval. A model
+  that wins benchmarks can still lose on real agentic work, and I've had that happen.
+
+#### 🧭 Agent Tooling & Context
+The part nobody puts on a résumé: an agent is only as good as the tools and context you
+give it.
+
+- 🔌 **MCP (Model Context Protocol)** — I run a fleet of MCP servers as agent tooling. When
+  the system prompt crept to **66,000 tokens**, I traced it to tool definitions being loaded
+  eagerly across roughly a dozen servers and moved production to on-demand activation.
+- 📚 **Knowledge base** — I designed the structured store the agents read from and write to:
+  taxonomy, cross-linking, and an update protocol, so operational context survives across
+  sessions instead of dying with the conversation.
 
 #### 🛰️ Deployment & Operations
 Getting an ASGI application to run through **Phusion Passenger** on shared
@@ -128,10 +142,11 @@ REST API design · SQLAlchemy 2.x · raw SQL via `text()` · PyMySQL · schema d
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-🧠 **Multi-agent:** Agent-Zero · MCP (Model Context Protocol)
+🧠 **Multi-agent:** Agent-Zero · MCP (Model Context Protocol) · agent memory & context design
 ⚡ **Local inference & serving:** TabbyAPI / ExLlamaV3 · Ollama · LM Studio · llama.cpp
 📦 **Quantization:** EXL3 · speculative decoding (MTP, n-gram) · KV cache tuning
-🔍 **Retrieval:** FAISS
+📊 **Evaluation:** throughput & acceptance benchmarking · long-context retrieval testing
+🔍 **Retrieval:** FAISS · vector databases
 🎯 **Fine-tuning:** Unsloth · RunPod (A100)
 🖥️ **Hardware:** 2× RTX 3090 (36 GB VRAM)
 
