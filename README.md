@@ -9,10 +9,10 @@ Backend engineer working in Python: REST APIs, data modeling, automation, and
 LLM integration. I design, build, and operate the software behind two content
 platforms I own — end to end, from schema to deployment.
 
-I launched **RiptoForex** in 2018 and **TedigoUnaVaina** in 2021 on WordPress.
-Both went offline when the original hosting lapsed. In December 2025 I started
-rebuilding RiptoForex on a custom Python backend I architected myself, and did
-the same for TedigoUnaVaina in March 2026. Both now run on one shared FastAPI
+I launched **RiptoForex** in 2016 and **TedigoUnaVaina** in 2021 on WordPress.
+Hosting lapsed more than once and the sites went dark for stretches; I brought
+them back each time. In December 2025 I rebuilt RiptoForex on a custom Python
+backend I architected myself, and did the same for TedigoUnaVaina in March 2026. Both now run on one shared FastAPI
 service backed by MySQL.
 
 My scope is the backend and the automation layer. The frontends are
@@ -205,7 +205,7 @@ Seven proctored exams with live coding: programming fundamentals, data
 structures, algorithms, trees and graphs, databases, computer architecture,
 and mathematics for computer science.
 
-**🎓 CS50x: Introduction to Computer Science** — HarvardX, 2025
+**🎓 CS50x: Introduction to Computer Science** — HarvardX, 2024
 Final project: [TaskMaster Pro](https://github.com/kelvinmendoza59/TaskMaster-Pro).
 
 **🐚 Bash/Shell and Command Line** — MoureDev Pro, 2026
