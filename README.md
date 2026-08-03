@@ -24,8 +24,9 @@ template-based Next.js apps that consume the same API.
   - ⚙️ One FastAPI backend, one MySQL database, two independent sites
 
 - 🤖 **AI Engineering** — multi-agent orchestration, local LLM inference, fine-tuning
-  - Kenvi: an eight-agent system on Agent-Zero, with FAISS-backed memory
-  - Model routing across Claude, OpenAI, Gemini, and local endpoints
+  - 🧠 Kenvi: an eight-agent system on Agent-Zero, with FAISS-backed memory
+  - 🖥️ Self-hosted inference on 2× RTX 3090 — TabbyAPI / ExLlamaV3, my own EXL3 quants at 131K context
+  - 🔀 Model routing across Claude, OpenAI, Gemini, and local endpoints
 
 - 🌍 **Open-source contributor** — [Mozilla MDN Web Docs](https://github.com/mdn/translated-content/pull/32346)
   - PR #32346 merged January 2026 (l10n-es)
@@ -62,6 +63,28 @@ with **Docker**. It replaced an n8n workflow with a **12-step autonomous
 publishing pipeline**. I fine-tuned a model on a custom dataset of **3,130
 domain-specific examples** and route requests across Anthropic Claude, OpenAI,
 Google Gemini, and local inference endpoints depending on the workload.
+
+#### 🧩 Local LLM Infrastructure
+The agent platform runs its inference **locally on a 2× RTX 3090 workstation**
+instead of paying per token for every call. The serving stack is **TabbyAPI on
+ExLlamaV3**, picked over Ollama, LM Studio, and llama.cpp after benchmarking
+single-user throughput on consumer GPUs — all four are in regular use here.
+
+- 📦 **Quantization** — I quantize my own models: Qwen3.6-27B converted from
+  FP16 to **EXL3 at 7.5bpw**, then re-converted to carry a Multi-Token
+  Prediction head.
+- ⚡ **Speculative decoding** — enabling MTP drafting moved generation from
+  **17–18 tok/s to 42 tok/s** on structured output and 26 tok/s on free prose,
+  at 84% draft acceptance.
+- 📏 **Long context** — **131K tokens** with a Q4 KV cache across a tuned GPU
+  split, verified by needle-in-a-haystack retrieval at 101K.
+- 🧬 **Hybrid architectures** — patched my launcher's VRAM estimator after
+  finding that Qwen3.6's `linear_attention` layers contribute nothing to the KV
+  cache. That's 48 of its 64 layers, so the naive estimate was off by 4×.
+- 🔌 **Tool-call compatibility** — wrote a FastAPI proxy translating Qwen's
+  native XML tool-call format into OpenAI-compatible JSON, since the server
+  expects Hermes-style output.
+- 🎯 **Fine-tuning** — Unsloth on a RunPod A100.
 
 #### 🛰️ Deployment & Operations
 Getting an ASGI application to run through **Phusion Passenger** on shared
@@ -106,9 +129,11 @@ REST API design · SQLAlchemy 2.x · raw SQL via `text()` · PyMySQL · schema d
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 🧠 **Multi-agent:** Agent-Zero · MCP (Model Context Protocol)
-⚡ **Local inference:** ExLlamaV2 / TabbyAPI · Ollama · llama.cpp · LM Studio
+⚡ **Local inference & serving:** TabbyAPI / ExLlamaV3 · Ollama · LM Studio · llama.cpp
+📦 **Quantization:** EXL3 · speculative decoding (MTP, n-gram) · KV cache tuning
 🔍 **Retrieval:** FAISS
 🎯 **Fine-tuning:** Unsloth · RunPod (A100)
+🖥️ **Hardware:** 2× RTX 3090 (36 GB VRAM)
 
 #### 🏗️ Infrastructure
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
